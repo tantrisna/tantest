@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="formstyles.css">
+  </head>
+  <body>
+    <h1>Student Registration Form</h1>
+    <form class="" action="res.html" method="get">
+      <br>
+      <div class="full">
+        <label>Firstname</label><br>
+        <input type="text">
+      </div><br>
+      <div class="full">
+        <label>Middlename</label><br>
+        <input type="text">
+      </div><br>
+      <div class="full">
+        <label>Lastname</label><br>
+        <input type="text">
+      </div><br>
+      <div>
+        <label>Course</label>
+        <select id="course" name="course">
+          <option value="sel" selected>Select Course</option>
+          <option value="cse">Computer Science Engineering</option>
+          <option value="ise">Information Science Engineering</option>
+          <option value="me">Mechanical Engineering</option>
+          <option value="ae">Aeronautical Engineering</option>
+          <option value="ee">Electrical Engineering</option>
+          <option value="ce">Civil Engineering</option>
+        </select>
+      </div><br>
+      <div>
+        <label>Gender</label><br>
+          <input type="radio" name="gender" value="male" size="10">Male
+          <input type="radio" name="gender" value="female" size="10">Female
+          <input type="radio" name="gender" value="other" size="10">Other
+      </div><br>
+      <div class="full">
+        <label>Current Address</label><br>
+        <input type="text">
+      </div><br>
+      <div class="full">
+        <label>Email</label><br>
+        <input type="email">
+      </div><br>
+      <div class="full">
+        <label>Password</label><br>
+        <input type="password">
+      </div><br>
+      <div class="full">
+        <label>Retype Password</label><br>
+        <input type="password">
+      </div><br><br>
+      <button type="submit" formaction="res.html">Register</button>
+    </form>
+  </body>
+</html>
